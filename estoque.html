@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Produto</title>
+    <link rel="stylesheet" type="text/css"  href="/css/estilo.css">
+</head>
+<body>
+    <form class="cadastro" action="/adicionar" method="POST">
+        <h1>Cadastrar Produto</h1>
+        <div class="field">
+            <label for="descricao">Descrição do Produto </label>
+            <input type="text" id="descricao" name="descricao" required><br>
+        </div>
+        <div class="field">
+            <label for="quantidade_estoque">Quantidade: </label>
+            <input type="text" id="quantidade_estoque" name="quantidade_estoque" required><br>
+        </div>
+
+        <div class="field">
+            <label for="valor_unitario">Valor Unitário: </label>
+            <input type="text" id="valor_unitario" name="valor_unitario" required><br>
+        </div>
+
+        <div class="field">
+            <label for="peso">Peso: </label>
+            <input type="text" id="peso" name="peso" required><br>
+        </div>
+
+        <div class="field">
+            <label for="medida">Medida: </label>
+            <input type="text" id="medida" name="medida" required><br>
+        </div>
+
+        <div class="field">
+            <label for="localizacao_estoque">Localização no Estoque: </label>
+            <input type="text" id="localizacao_estoque" name="localizacao_estoque" required><br>
+        </div>
+
+        <input type="submit" value="Cadastrar">
+
+    </form> 
+
+</body>
+
+</html>
